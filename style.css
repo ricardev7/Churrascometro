@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+.title{
+    font-family: 'Righteous', cursive;
+    color: #eedd46ff;
+    
+}
+
+
+body{
+    font-family: 'Sarala', sans-serif;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* section{
+    max-width: 400px;
+    font-size: 0.8em;
+    color: white;
+    backdrop-filter: blur(8px);
+    background-color: transparent;
+    box-shadow: 0 5px 15px rgba(255,255,255,0.8);
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 2%;
+    
+    
+    
+
+} */
+
+.container{
+    margin: auto;
+    max-width: 300px ;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 20px 2%;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+}
+
+button{
+    background-color: #eedd46;
+    color: #f02020;
+    font-weight: 800;
+    border-radius: 5px;
+    font-family: 'Sarala', sans-serif;
+    border: none;
+    padding: 5px;
+
+}
+
+
+
+input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#resultado{
+    color: #eedd46;
+}
